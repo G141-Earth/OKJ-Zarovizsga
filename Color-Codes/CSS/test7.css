@@ -1,0 +1,49 @@
+body{
+	font-family: "Times New Roman"
+}
+
+input{
+	width: 100%;
+}
+
+input.CC-gomb{
+	border: 0.085rem solid #C29914;
+	background-color: rgba(0, 0, 0, 0.03);
+}
+
+input.CC-mezo{
+	border: 0;
+	border-bottom: 1px solid #C29914;
+}
+
+a{
+  color: #C29914;
+  text-decoration: underline;
+}
+a:hover {
+  color: #C29914;
+}
+
+input:focus {
+  outline: dotted 0px;
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+.CC-sarok {
+	border-radius: 0;
+}
+
+svg#CC-logo
+{
+	width: 90%; height: auto;
+}
+
+h1{
+	border-top: 2px solid red; 
+	border-bottom: 2px solid red;
+	padding: 15px;
+}
+
+#CC-Idezet{
+	font-size: larger;
+}

@@ -1,0 +1,23 @@
+body{
+	font-family: "Times New Roman"
+}
+
+input{
+	width: 100%;
+}
+
+input.gomb, input.mezo{
+	border: 0;
+}
+
+input.mezo{
+	border-bottom: 0.125rem solid #C29914;
+}
+
+a {
+  color: #C29914;
+  text-decoration: underline;
+}
+a:hover {
+  color: #C29914;
+}

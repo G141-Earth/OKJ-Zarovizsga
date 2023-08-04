@@ -1,0 +1,34 @@
+body{
+	font-family: "Times New Roman"
+}
+
+input{
+	width: 100%;
+}
+
+input.gomb{
+	border: 0.085rem solid #C29914;
+	background-color: rgba(0, 0, 0, 0.03);
+}
+
+input.mezo{
+	border: 0;
+	border-bottom: 0.125rem solid #C29914;
+}
+
+a{
+  color: #C29914;
+  text-decoration: underline;
+}
+a:hover {
+  color: #C29914;
+}
+
+input:focus {
+  outline: dotted 0px;
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+.card-img-top {
+	border-radius: 0;
+}

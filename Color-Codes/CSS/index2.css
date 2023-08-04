@@ -1,0 +1,473 @@
+body
+{
+	line-height: 1.5;
+	font-family: "Poppins";
+	font-weight: 500;
+}
+
+#CC-idezet blockquote
+{
+	margin-bottom: 0;
+}
+
+hr
+{
+	margin: 0;
+	border: 1px solid gray;
+}
+
+.black
+{
+	background-color: black;
+}
+
+#CC-menu
+{
+	position: fixed;
+	width: 100%;
+	z-index: 3;
+}
+
+#CC-menu ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#CC-menu-header
+{
+	display: none;
+}
+
+#CC-menu ul li ul li
+{
+	width: 25%;
+	/*33.333333333333333%;*/
+	float: left;
+}
+
+#CC-menu input[type="submit"]
+{
+	margin: 0;
+	outline: 0;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	color: #FFFFFF;
+}
+
+#CC-menu form
+{
+	margin: 0;
+}
+
+#CC-color{
+	width: 100%; height: auto;
+}
+
+.author
+{
+	text-transform: uppercase;
+	margin-top: 1rem;
+}
+
+h1
+{
+	margin: 1rem 0;
+}
+
+a, a:link, a:active, a:visited, a:visited
+{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover, a:visited, form div:hover, #CC-menu input[type="submit"]:hover{
+	text-transform: uppercase;
+}
+
+.CC-keret
+{
+	padding: 2rem 3rem;
+}
+
+.CC-sor-RGB, .CC-sor-RYB, .CC-sor-HSL, .CC-sor-HSV, .CC-sor-CMYK
+{
+	width: 100%; height: 2rem;
+	background-color: #F2F2F2;
+	margin-bottom: 1.25rem;
+}
+
+.CC-sor-RGB:nth-child(2) div
+{
+	background-color: #FF0000;
+}
+
+.CC-sor-RGB:nth-child(3) div
+{
+	background-color: #00FF00;
+}
+
+.CC-sor-RGB:nth-child(4) div
+{
+	background-color: #0000FF;
+}
+
+.CC-sor-RYB:nth-child(2) div
+{
+	background-color: #FF0000;
+}
+
+.CC-sor-RYB:nth-child(3) div
+{
+	background-color: #FFFF00;
+}
+
+.CC-sor-RYB:nth-child(4) div
+{
+	background-color: #0000FF;
+}
+
+.CC-sor-HSL:nth-child(3) div, .CC-sor-HSV:nth-child(3) div
+{
+	background-color: #808080;
+}
+
+.CC-sor-HSL:nth-child(4) div, .CC-sor-HSV:nth-child(4) div
+{
+	background-color: #404040;
+}
+
+.CC-sor-CMYK:nth-child(2) div
+{
+	background-color: #00FFFF;
+}
+
+.CC-sor-CMYK:nth-child(3) div
+{
+	background-color: #FF00FF;
+}
+
+.CC-sor-CMYK:nth-child(4) div
+{
+	background-color: #FFFF00;
+}
+
+.CC-sor-CMYK:nth-child(5) div
+{
+	background-color: #000000;
+}
+
+
+.CC-sor-RGB div, .CC-sor-RYB div, .CC-sor-HSL div, .CC-sor-HSV div, .CC-sor-CMYK div
+{
+	height: 1.875rem;
+}
+
+h2 span
+{
+	font-size: 1rem;
+}
+
+.pick
+{
+	margin-bottom: 2rem;
+}
+
+.pick:last-child
+{
+	margin-bottom: 0;
+}
+
+.text-right
+{
+	text-align: right;
+}
+
+.CC-kompozicio
+{
+	width: 100%;
+	box-shadow: 0px 0px 2px gray;
+	padding: 1rem;
+}
+
+#CC-form
+{
+	position: fixed;
+	width: 100%; height: 100%;
+	z-index: 5;
+	top: 0;
+	background-color: #FFFFFF;
+}
+
+#CC-form form{
+	padding: 1rem;
+	background-color: #FFFFFF;
+	box-shadow: 0px 0px 2px gray;
+}
+
+#CC-color
+{
+	margin: 2rem 0 1rem 0;
+	box-shadow: 0px 0px 2px gray;
+}
+
+#CC-form form, #CC-form
+{
+	display: none;
+}
+
+ul.CC-paletta, ul.CC-paletta li ul
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	list-style-type: none;
+}
+
+ul.CC-paletta li, ul.CC-paletta li button
+{
+	width: 100%; height: 3.25rem;
+	margin-top: 1rem;
+	cursor: pointer;
+}
+
+ul.CC-paletta li a
+{
+	display: block;
+	line-height: 3.25rem;
+	text-align: center;
+}
+
+ul.CC-paletta li:first-child, ul.CC-paletta li button
+{
+	margin-top: 0;
+}
+
+ul.CC-paletta li ul, ul.CC-paletta li:hover button
+{
+	display: none;
+}
+
+ul.CC-paletta li:hover ul
+{
+	display: block;
+}
+
+.pick span
+{
+	cursor: pointer;
+}
+
+input[type=submit]
+{
+	margin-top: 1rem;
+}
+
+.CC-minta
+{
+	margin-bottom: 1.5rem;
+	box-shadow: 5px 5px 16px 0px #33333359;
+	overflow: hidden;
+}
+
+h2
+{
+	margin: 1rem 0;
+}
+
+h3
+{
+	margin-bottom: 1rem;
+}
+
+rect
+{
+	fill: #FFFFFF;
+}
+
+.CC-minta a
+{
+	display: block;
+	width: 100%;
+	text-align: center;
+	color: black;
+}
+
+.CC-minta div:first-child
+{
+	width: 100%; height: 12rem;
+}
+
+.CC-minta hr
+{
+	border: 0;
+	border-top: 2px solid #ECE8E8;
+	margin: 15px;
+}
+
+p
+{
+	text-align: justify;
+}
+
+.CC-dock
+{
+	width: 3.25rem; height: 64px;
+	position: fixed;
+	bottom: 0px;
+	margin: auto;
+	background-image: url('../img/maat.svg');
+	background-size: 70%;
+	background-position: center;
+	background-repeat: no-repeat;
+	box-shadow: 0px 0px 2px gray;
+	background-color: white;
+	margin: 1rem;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.CC-chromo div:first-child
+{
+	height: 12rem;
+	border-bottom: 3px solid #989898;
+}
+
+.CC-chromo div:last-child
+{
+	font-style: italic;
+	margin: 1rem 0 0 0;
+	color: #989898;
+}
+
+.CC-chromo:hover, .CC-chromo:hover form.perm input[type="submit"]
+{
+	background-color: #F5F5F5;
+}
+
+.CC-chromo
+{
+	margin-bottom: 1rem;
+	/*cursor: pointer;
+	background-color: #E3E3E3;*/
+}
+
+.full-form input, .full-form label, .form.szin input
+{
+	width: 100%;
+}
+
+#regisztracio label
+{
+	width: 100%;
+}
+
+#regisztracio input
+{
+	margin-bottom: 1rem;
+}
+
+form.user input[type="submit"]
+{
+	border: 0;
+	background-color: transparent;
+	outline: none;
+}
+
+form.user input[type="submit"]:hover
+{
+	font-style: italic;
+}
+
+form.perm input[type="submit"], form.perm select, form.szin input[type="submit"], form.perm select, form.szin input[type="text"], form.adatok input
+{
+	outline: none;
+	width: 100%;
+	border: 1px solid #858585;
+}
+
+form.perm input[type="submit"]:hover, form.szin input[type="submit"]:hover, form.adatok input[type="submit"]:hover
+{
+	text-transform: uppercase;
+}
+
+form.adatok hr
+{
+	margin: 1rem 0;
+}
+
+form.adatok label
+{
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+}
+
+dl
+{
+	cursor: default;
+}
+
+/*****************************************/
+
+@media(max-width: 1200px)
+{
+	ul.CC-paletta li, ul.CC-paletta li button
+	{
+		height: 2.25rem;
+	}
+}
+
+@media(max-width: 767px)
+{
+	#CC-menu ul li ul li
+	{
+		width: 100%;
+		display: none;
+	}
+
+	#CC-menu-header, ul.CC-paletta li ul
+	{
+		display: block;
+	}
+
+	#CC-menu ul li:hover ul li
+	{
+		display: list-item;
+	}
+
+	ul.CC-paletta li:first-child, h3
+	{
+		margin-top: 1rem;
+	}
+
+	ul.CC-paletta li button
+	{
+		display: none;
+	}
+
+	ul.CC-paletta li, ul.CC-paletta li button
+	{
+		height: 3.25rem;
+		cursor: pointer;
+	}
+}
+
+@media(max-width: 992px)
+{
+	.col-md-4
+	{
+		width: 100%;
+	}
+
+	ul.CC-paletta li, ul.CC-paletta li button
+	{
+		height: 3.25rem;
+	}
+
+	ul.CC-paletta li:first-child, h3
+	{
+		margin-top: 1rem;
+	}
+}
